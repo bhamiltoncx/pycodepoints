@@ -17,7 +17,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='codepoints',
-    version='0.9',
+    version='1.0',
     description='Converts code point sequences to and from Unicode strings',
     long_description=long_description,
     install_requires=['future'],
