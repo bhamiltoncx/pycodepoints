@@ -38,7 +38,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords='unicode utf16 surrogate pair bmp smp astral codepoint codeunit emoji maxunicode',
-    py_modules=['codepoints'],
+    packages=['codepoints'],
     test_suite='nose.collector',
     tests_require=['nose', 'nose-parameterized'],
     zip_safe=False,
