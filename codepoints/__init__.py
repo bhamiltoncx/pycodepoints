@@ -45,7 +45,7 @@ def _from_utf16(unistr):
                 if is_leading_surrogate(code_unit):
                     leading_surrogate = code_unit
                 else:
-                    yield code_point
+                    yield code_unit
                     leading_surrogate = -1
     # Dangling surrogate at end of input
     if leading_surrogate != -1:
